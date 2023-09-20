@@ -20,4 +20,4 @@
 
 <h2>Screen Recording</h2>
 
-![](screen.jpg)
+![](screen.gif)

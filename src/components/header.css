@@ -1,0 +1,42 @@
+:root{
+    --realcolor: #1ED760;
+}
+
+header{
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #1ed75f25;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.255);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.logo li img{
+    height: 45px;
+}
+
+.logo li a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-right: 40px;
+}
+

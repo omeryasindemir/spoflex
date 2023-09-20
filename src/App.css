@@ -1,0 +1,134 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+:root{
+  --realcolor: #1ED760;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1ED760; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1ED760; 
+}
+
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+  background-image: url(https://wallpapers.com/images/featured/spotify-gxhpo846gm70jwqc.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+  color: white;
+  background-color: black;
+
+  font-family: 'Mooli', sans-serif;
+}
+
+.aut__btn{
+  position: absolute;
+  margin-top: 150px;
+  height: 400px;
+  width: 400px;
+  left: 50%;
+  margin-left: -200px;
+  
+
+  border: 2px solid rgba(255, 255, 255, 0.255);
+
+  border-radius: 7px;
+
+  background-color: #11662f75;
+  backdrop-filter: blur(10px);
+  
+}
+
+.aut__btn a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 7px;
+  transition: all .5s ease-in-out;
+  margin-left: 28%;
+  
+}
+
+.aut__btn a:hover{
+  background-color: transparent;
+  color: black;
+  background-color: #1ED760;
+  font-weight: bold;
+}
+
+.welcome__write{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.welcome__write__2{
+  margin-bottom: 240px;
+  text-align: center;
+  
+}
+
+.section{
+  margin-top: 120px;
+  width: 96%;
+  right: 2%;
+}
+
+
+
+.section ul li{
+  list-style-type: none;
+  border: 1px solid rgba(255, 255, 255, 0.255);
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.255);
+  backdrop-filter: blur(10px);
+
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 20px;
+
+  border-radius: 7px;
+}
+
+.section ul li img{
+  height: 50px;
+  margin-right: 20px;
+}
+
+.section ul li i{
+  margin-left: 20px;
+}
+
+
+
+
+

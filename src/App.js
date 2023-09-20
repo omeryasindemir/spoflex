@@ -5,7 +5,7 @@ import Header from "./components/header";
 import "./App.css";
 
 const spotifyApi = new SpotifyWebApi();
-const CLIENT_ID = "d20f8f653162476a898df0eba2178402";
+const CLIENT_ID = "YOUR_CLIENT_ID";
 const REDIRECT_URI = "http://localhost:3000/callback";
 
 class SpotifyMusicApp extends Component {

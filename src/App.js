@@ -6,7 +6,7 @@ import "./App.css";
 
 const spotifyApi = new SpotifyWebApi();
 const CLIENT_ID = "d20f8f653162476a898df0eba2178402";
-const REDIRECT_URI = "http://localhost:3000/callback";
+const REDIRECT_URI = "https://spoflexv2.vercel.app/callback";
 
 class SpotifyMusicApp extends Component {
   state = {
